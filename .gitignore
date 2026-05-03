@@ -1,0 +1,27 @@
+# UV - dependency manager
+# .venv is managed automatically by UV — never commit it
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Environment variables — ignore all .env files except the template
+.env
+.env.local
+.env.*.local
+# .env.template is intentionally NOT ignored (no secrets, safe to commit)
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Others
+.github
+
