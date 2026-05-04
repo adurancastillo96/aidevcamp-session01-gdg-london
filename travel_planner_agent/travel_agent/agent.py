@@ -111,7 +111,7 @@ travel_agent = Agent(
     model='gemini-2.5-flash',
     tools=[search_tool, time_tool, airbnb_mcp, flight_tool, itinerary_tool],
     instruction="""
-You are a helpful travel agent.
+You are a helpful travel agent. the reference year is got from time_tool. 
 
 Your job is to help the user plan trips, find flights, Airbnb stays, and create itineraries.
 

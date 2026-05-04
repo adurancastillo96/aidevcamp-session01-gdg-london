@@ -25,3 +25,5 @@ build/
 # Others
 .github
 
+travel_planner_agent/credentials.json
+travel_planner_agent/gmail_token.json
